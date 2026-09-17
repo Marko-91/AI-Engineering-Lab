@@ -2,6 +2,7 @@
 
 <img src="assets/diagrams/lab-banner.png" alt="AI Engineering Lab, a free 24 week AI engineering training program developed by Zorost Intelligence AI Lab" width="100%" />
 
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-F14B21.svg)](LICENSE)
 [![Program](https://img.shields.io/badge/program-24%20weeks-14213D.svg)](curriculum/README.md)
 [![Notebooks](https://img.shields.io/badge/notebooks-43%20runnable-0E9384.svg)](curriculum/README.md)
