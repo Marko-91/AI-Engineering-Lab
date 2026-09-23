@@ -45,7 +45,7 @@
 
 ## Checklist (mirrors manifest.json + Excel tracker)
 
-- [ ] Mon: Set up VS Code, Python environment (uv or conda), and git; fork/clone the repo.
+- [ X ] Mon: Set up VS Code, Python environment (uv or conda), and git; fork/clone the repo.
 - [ ] Tue: Complete the Python refresher exercises in the environment notebook.
 - [ ] Wed: Run the environment check notebook end-to-end (versions, imports, deterministic seed).
 - [ ] Thu: Build the ZoroLogistics data generator: shipments, carriers, lanes, deterministic seeds.
