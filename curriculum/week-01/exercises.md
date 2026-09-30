@@ -46,9 +46,9 @@
 ## Checklist (mirrors manifest.json + Excel tracker)
 
 - [ X ] Mon: Set up VS Code, Python environment (uv or conda), and git; fork/clone the repo.
-- [ ] Tue: Complete the Python refresher exercises in the environment notebook.
-- [ ] Wed: Run the environment check notebook end-to-end (versions, imports, deterministic seed).
-- [ ] Thu: Build the ZoroLogistics data generator: shipments, carriers, lanes, deterministic seeds.
-- [ ] Fri: Use case: generate the 100k-row dataset, save to CSV/Parquet, commit it with a data dictionary.
-- [ ] Sat: Take the Week 1 quiz (quiz.md), pass with 8/10; record the score in Notes.
+- [ X ] Tue: Complete the Python refresher exercises in the environment notebook.
+- [ X ] Wed: Run the environment check notebook end-to-end (versions, imports, deterministic seed).
+- [ X ] Thu: Build the ZoroLogistics data generator: shipments, carriers, lanes, deterministic seeds.
+- [ X ] Fri: Use case: generate the 100k-row dataset, save to CSV/Parquet, commit it with a data dictionary.
+- [ X ] Sat: Take the Week 1 quiz (quiz.md), pass with 8/10; record the score in Notes.
 - [ ] Milestone: Update the Excel tracker: Week 1 checked off; push your fork to GitHub.

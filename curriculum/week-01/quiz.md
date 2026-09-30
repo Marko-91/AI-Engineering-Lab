@@ -10,15 +10,15 @@ Answer all ten, then check against the answer key. A question marked *(see Conce
 
 2. **Multiple choice.** Why does `shipments(100_000, seed=42)` return 100,200 rows instead of 100,000? *(see Concepts §6, notebook "Verify persistence" cell)*
    a. A rounding error in NumPy
-   b. The generator plants ~0.2% duplicate rows on purpose for Week 2 to find
+   b. The generator plants ~0.2% duplicate rows on purpose for Week 2 to find X
    c. The seed only applies to carriers, not shipments
    d. `save_all()` always adds 200 header rows
 
-3. **Short answer.** In the seed cell, `first_five(42)` returns `[89250, 773956, 654571, 438878, 433015]` on its first call. What does it return on the *second* call with the same seed, and why? *(see notebook "seed habit" cell)*
+3. **Short answer.** In the seed cell, `first_five(42)` returns `[89250, 773956, 654571, 438878, 433015]` on its first call. What does it return on the *second* call with the same seed, and why? *(see notebook "seed habit" cell)* ANSWER: It returns the same `[89250, 773956, 654571, 438878, 433015]` because it's deterministic behaviour controled by the seed.
 
 4. **Multiple choice.** What is the modern, recommended NumPy form for seeded randomness, and why is it preferred over the legacy global form? *(see Concepts §6)*
    a. `np.random.seed(42)`, simpler and thread-safe
-   b. `numpy.random.default_rng(seed)`, local and thread-safe, no hidden global state
+   b. `numpy.random.default_rng(seed)`, local and thread-safe, no hidden global state X
    c. `random.random(42)`, built-in and faster
    d. `np.random.RandomState`, deprecated but required
 
@@ -39,7 +39,7 @@ Answer all ten, then check against the answer key. A question marked *(see Conce
 8. **Short answer.** Name the three data-quality flaws planted in the Week 1 output, and give the approximate count of each under seed 42. *(see Concepts §6, verification cell)*
 
 9. **Multiple choice.** The data dictionary in `02-zorologistics-data-generator.ipynb` writes `data/data-dictionary.md` from a list of tuples. What four fields does each tuple carry? *(see notebook "data dictionary" cell)*
-   a. table, column, dtype, meaning
+   a. table, column, dtype, meaning X
    b. table, seed, dtype, count
    c. column, value, sample, note
    d. name, type, nulls, source
