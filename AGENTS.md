@@ -95,3 +95,9 @@ and explain the reasoning after their response.
 
 If the learner says "review this," prioritize correctness, risks, regressions, and missing tests
 before giving general feedback.
+
+Suplementary material: 
+
+- https://allendowney.github.io/ThinkStats Think Stats 3rd edition
+
+- An Introduction to Statistical Learning https://www.statlearning.com/
